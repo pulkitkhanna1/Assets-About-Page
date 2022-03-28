@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/logoBig.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color:black">
+        <!-- <nav class="nav">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#"><img src="./assets_logo.jpeg" /></a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+            <li><a href="mailto:bansal.ayush2002@gmail.com">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <span class="navTrigger"><i class="fas fa-bars"></i></span>
+      </div>
+    </nav> -->
+     <!-- Navigation bar -->
+     <section id="navigator">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#navigator"
+              ><div class="sizelge">
+                <img
+                  src="../mainPage/images/Lugu.png"
+                  width="60"
+                  style="padding-bottom: 4px"
+                /></div
+            ></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link sizelge"
+                    href="../assets about page/about.html"
+                    >About
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link sizelge" href="../assetsBlogPage/blog.html"
+                    >Blog</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link sizelge" href="../assetsWingPage/Wing.html"
+                    >Wings</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link sizelge"
+                    href="../contactusPage/contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#blog"
+                    role="button"
+                    aria-expanded="false"
+                    >More &nbsp;</a
+                  >
+                  <ul class="dropdown-menu" id="blog">
+                    <li>
+                      <a class="dropdown-item" href="../Event Page/events.html">Events</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../Sampradaa Page/html/index.html">Sampradaa</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="../Recruitment Page/recruitment.html">Recruitment</a>
+                    </li>
+                    <!-- <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li> -->
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section>
+  
+      <div class="container">
+        <h1 id="about-us-heading">ABOUT US</h1>
+        <p class="about-para">
+          ASSETS DTU is the Finance and Investment Society of Delhi Technological
+          University (Formerly Delhi College of Engineering).
+          <br />
+          <br />
+          ASSETS DTU aims to nurture financially prudent students and start an
+          investing culture. ASSETS is a society that focuses on imparting a basic
+          understanding of ‘how to manage your money. Our vision is to create the
+          next generation of smart and financially prudent individuals and we are
+          on the path to spread financial literacy.
+          <br />
+          <br />
+          <h1 id="department-heading">DEPARTMENTS</h1>
+          <section class="text-gray-600 body-font">
+            <div class="container px-5 py-2 mx-auto">
+              <div class="flex flex-wrap -m-4">
+                <div id="Dept-Box" class="p-4 lg:w-1/3">
+                  <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Investment Department</h1>
+                    <p class="leading-relaxed mb-3">Where we discuss and share resources to learn about Stock Market and other investments.</p>
+                    
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                      
+                    </div>
+                  </div>
+                </div>
+                <div id="Dept-Box" class="p-4 lg:w-1/3">
+                  <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Crypto Department</h1>
+                    <p class="leading-relaxed mb-3">We encourage discussions about Cryptocurrencies and Blockchain in this Department.</p>
+                    </a>
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                      
+                    </div>
+                  </div>
+                </div>
+                <div id="Dept-Box" class="p-4 lg:w-1/3">
+                  <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Technical Department </h1>
+                    <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    </a>
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                      
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    <section class="text-gray-400  body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 id="Team-Heading">MEET THE TEAM</h1>
+            </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./Core Council/Avir Tripathi - Prez.jfif">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-white">Avir Tripathi</h2>
+                  <h3 class="text-gray-500 mb-3">President</h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./Core Council/Varn Roy- VP.jpg" >
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-white">Varn Roy</h2>
+                  <h3 class="text-gray-500 mb-3">Vice President</h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-white">Atticus Finch</h2>
+                  <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-white">Henry Letham</h2>
+                  <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container px-5 py-2  mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-white">Alper Kamu</h2>
+                  <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-white">Holden Caulfield</h2>
+                  <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-white">Atticus Finch</h2>
+                  <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/4 md:w-1/2">
+              <div class="h-full flex flex-col items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203">
+                <div class="w-full">
+                  <h2 class="title-font font-medium text-lg text-white">Henry Letham</h2>
+                  <h3 class="text-gray-500 mb-3">UI Developer</h3>
+                  <span class="inline-flex">
+                    <a class="text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a class="ml-2 text-gray-700">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
