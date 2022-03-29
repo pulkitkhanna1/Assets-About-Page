@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
   font-family: 'Poppins', sans-serif;
   color: white;
 }
@@ -198,10 +198,12 @@ h1 {
 
 .container {
   text-align: center;
-  background-image: url(para-bg.jpg);
+  background-image: url(para-bg.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 10px;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 80vh;
   /* color: white; */
 }
 .container h1,
