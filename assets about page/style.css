@@ -141,6 +141,9 @@ h3 {
   align-items: center;
   /* padding-top: 1%; */
 }
+#team_member:hover{
+  transform: translatey(-5px);
+}
 .nav-link {
   color: white !important;
   background-color: black;
@@ -167,9 +170,23 @@ h1 {
   color: beige;
 }
 #department-heading {
+  margin-top: 35px;
   font-size: 45px;
   color: beige;
 }
+#investment_icons{
+  margin-top: 160px;
+  padding: 10px;
+}
+#crypto_icons{
+  margin-top: 170px;
+  padding: 10px;
+}
+#Technical_icons{
+  padding-right: 10px;
+  margin-top: 30px;
+}
+
 #Team-Heading{
   font-size: 45px;
   color: beige;
@@ -184,10 +201,7 @@ h1 {
   background-image: url(para-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 10px;
-  padding: 30px;
   border-radius: 10px;
-  margin-top: 20px;
   /* color: white; */
 }
 .container h1,
@@ -353,6 +367,14 @@ body {
   list-style: none;
   margin-right: 20px;
 }
+#bg {
+  text-align: center;
+  background-image:"assets about page/style.css";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .social-icons li {
   display: inline-block;
   margin-bottom: 4px;
