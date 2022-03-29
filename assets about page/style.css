@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   color: white;
 }
@@ -28,16 +28,13 @@
   height: 65px;
   padding-left: 1rem;
 }
-
 .nav div.logo a:hover {
   color: gold;
 }
-
 .nav div.main_list {
   height: 65px;
   float: right;
 }
-
 .nav div.main_list ul {
   width: 100%;
   height: 65px;
@@ -46,28 +43,24 @@
   margin: 0;
   padding: 0;
 }
-
 .nav div.main_list ul li {
   width: auto;
   height: 65px;
   padding: 0;
   padding-right: 3rem;
 }
-
 .nav div.main_list ul li a {
   text-decoration: none;
   color: #fff;
   line-height: 65px;
   font-size: 1rem;
 }
-
 .nav div.main_list ul li a:hover {
   color: gold;
 }
 .navTrigger {
   display: none;
 }
-
 @media screen and (max-width: 768px) {
   .navTrigger {
     display: block;
@@ -105,7 +98,6 @@
     display: block;
   }
 }
-
 .navTrigger {
   cursor: pointer;
   width: 30px;
@@ -116,7 +108,6 @@
   top: 0;
   bottom: 0;
 }
-
 .navTrigger i {
   content: '';
   display: block;
@@ -141,6 +132,12 @@ h3 {
   align-items: center;
   /* padding-top: 1%; */
 }
+#team_member{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
 #team_member:hover{
   transform: translatey(-5px);
 }
@@ -194,16 +191,15 @@ h1 {
 
 #Dept-Box:hover{
   transform: translateY(-5px);
+  justify-content: center;
 }
 
 .container {
   text-align: center;
   background-image: url(para-bg.jpeg);
   background-repeat: no-repeat;
-  border-radius: 10px;
   background-size: cover;
   background-attachment: fixed;
-  height: 80vh;
   /* color: white; */
 }
 .container h1,
@@ -273,8 +269,17 @@ body {
     float: none;
     margin-bottom: 10px;
   }
-  .member-row {
-    display: block !important;
+}
+
+@media screen and (max-width: 768px) {
+  #team_member{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 28%;
+  }
+  #avir{
+    margin-left: 30%;
   }
 }
 
